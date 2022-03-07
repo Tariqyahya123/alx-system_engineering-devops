@@ -1,5 +1,2 @@
 #!/bin/bash
-
-RESULT=$(ls -la)
-
-echo "$RESULT" > ls_cwd_content 
+ls -la > ls_cwd_content
