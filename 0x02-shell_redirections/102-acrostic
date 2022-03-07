@@ -2,8 +2,11 @@
 filename='eliz'
 while read -r line
 do
-  id=$(cut -c-1 <<< "$line")
-  echo $id
-  #code for passing id to other script file as parameter
+  id+=$(cut -c-1 <<< "$line")
+# echo $id
+
+
+   #code for passing id to other script file as parameter
 done < "$filename"
 
+echo $id
