@@ -1,0 +1,3 @@
+#!/bin/bash
+grep -r bin  /etc/passwd | wc -l
+
