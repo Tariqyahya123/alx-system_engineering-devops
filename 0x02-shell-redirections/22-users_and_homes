@@ -1,0 +1,3 @@
+#!/bin/bash
+cat passwd-copy | cut -d ':' -f -1,6-6 | sort
+
