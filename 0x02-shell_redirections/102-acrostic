@@ -9,4 +9,4 @@ do
    #code for passing id to other script file as parameter
 done < "$filename"
 
-echo $id
+echo $id | xargs
